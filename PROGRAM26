@@ -1,0 +1,200 @@
+Top.html:
+<html>
+ <body bgcolor=”pink”>
+ <br><br>
+ <marquee><h1 align=”center”><b><u>ONLINE BOOK
+ STORAGE</u></b></h1></marquee>
+ </body>
+ </html>
+Right.html:
+<html>
+ <body bgcolor="gray">
+ <br><br><br><br><br>
+ <h2 align="center">
+ <b><p> welcome to online book storage. Press login if you are
+ having id otherwise press registration.
+ </p></b></h2>
+ </body>
+ </html>
+Left.html:
+<html>
+ <body bgcolor="gray">
+ <h3>
+ <ul>
+ <li><a href="login.html" target="right"><font color="black">
+ LOGIN</font></a></li><br><br>
+ <li><a href="reg.html" target="right"><font color="black">
+ REGISTRATION</font></a></li><br><br>
+ <li><a href="profile.html" target="right"><font color="black">
+ USER PROFILE</font></a></li><br><br>
+ <li><a href="catalog.html" target="right"><font color="black">
+ BOOKS CATALOG</font></a></li><br><br>
+ <li><a href="scart.html" target="right"><font color="black">
+ SHOPPINGCART</font></a></li><br><br>
+ <li><a href="payment.html" target="right"><font color="black">
+ PAYMENT</font></a></li><br><br>
+ <li><a href="order.html" target="right"><font color="black">
+ ORDER CONFIRMATION</font></a></li><br><br>
+ </ul>
+ </body>
+ </html>
+Main.html:
+ <frameset rows=”25%, 75 %”>
+ <frame src=”top.html” name=”top”>
+ <frameset cols=”25%,75%”>
+ <frame src=”left.html” name=”left”>
+ <frame src=”right.html” name=”right”>
+ </frameset>
+ </frameset>
+Output:
+Login.html:
+<html>
+<head>
+<title>Form Tags</title>
+</head>
+<body bgcolor="gray">
+<center>
+<h1 style="color:white">LOGIN FORM</h1>
+<!--input-->
+<img src="user.png" height="15px" width="20px"><input type="text" placeholder="USER 
+NAME"><br><br>
+<!--password-->
+<img src="lock.png"height="15px" width="20px"><input type="password" 
+placeholder="PASSWORD"><br><br>
+<!--button-->
+<input type="submit" value="Submit">
+<input type="reset" value="clear">
+</center>
+</body>
+</html>
+Output:
+Book Catalog.html:
+<html>
+<body bgcolor="gray"><br><br><br>
+<div align="center"><pre>
+BOOK TITLE :<input type="text" name="title"><br>
+</pre><br><br>
+</div>
+<br><br>
+<div align="center">
+<input type="submit" value="ok" name="button1">&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="reset" value="clear" name="button2">
+</body>
+</html>
+Output:
+Order.html:
+<html>
+<body bgcolor="gray"><br><br><br>
+<h1 align="center">ORDER CONFIRMATION</h1>
+<div align="center"><table>
+<tr><td>LOGIN ID:</td><td><input type="text" name="id"></td></tr>
+<tr><td>TITLE:</td><td><input type="text" name="title"></td></tr> 
+<tr><td>NO.OF BOOKS:</td><td><input type="text" name="no"></td></tr> 
+<tr><td>COST OF BOOK:</td><td><input type="text" name="cost"></td></tr>
+<tr><td>DATE:</td><td><input type="text" name="date"></td></tr>
+</div>
+<br><br>
+<tr align="center"><td><input type="submit" value="ok" name="button1"></td>
+<td><input type="reset" value="clear" name="button2"></td></tr>
+</table>
+</body>
+</html>
+Output:
+Payment.html:
+<html>
+<body bgcolor="gray"><br><br><br>
+<form>
+<div align="center">
+<table>
+<tr><td>LOGIN ID:</td><td><input type="text" name="id"></td></tr>
+<tr><td>PASSWORD:</td><td><input type="password" name="pwd"></td></tr>
+<tr><td>AMOUNT:</td><td><input type="text" name="amount"></td></tr>
+<tr><td>CREDITCARDNUMBER:</td><td><input type="PASSWORD" 
+name="num+"></td><br><br><br>
+</div>
+<tr><td><input type="submit" value="ok"></td>
+<td><input type="reset" value="clear"></td></tr>
+</table>
+</form>
+</body>
+</html>
+OUTPUT:
+Profile.html:
+<html>
+<body bgcolor="gray"><br><br><br>
+<form name="myform">
+<div align="center"><pre>
+LOGIN ID:<input type="text" name="id"><br> 
+PASSWORD:<input type="password" name="pwd"></pre>
+</div>
+<div align="center">
+<input type="submit" value="ok">&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="reset" value="clear" >
+</form>
+</body>
+</html>
+Output:
+27. Create a table to show your class time table. 
+Source Code: 
+<html>
+<head>TABLE TAG</head>
+<title>TABLE</title>
+<body>
+<style>
+table, th, td
+{
+border: 1px solid black;
+border-collapse:collapse;
+padding:15px;
+}
+#t01
+{
+background-color: #f1f1c1;
+}
+td{text-align:center;}
+</style>
+<table id="t01">
+<caption><b>AI&DS ONLINE TABLE</b></caption>
+<tr>
+<th colspan="4">AI&DS</th>
+</tr>
+<tr>
+<th colspan="4">Monday</th>
+</tr>
+<tr>
+<th>9:30-10:20</th>
+<th>10:30-11:20</th>
+<th>11:30-12:20</th>
+<th>12:30-1:20</th>
+</tr>
+<tr>
+<td>P&S</td>
+<td>DS</td>
+<td>PY</td>
+<td>NM</td>
+</tr>
+</table>
+<hr>
+<table id="t02">
+<caption><strong>CSE-2 ONLINE TABLE</strong></caption>
+<tr>
+<th rowspan="4">CSE-2</th>
+</tr>
+<tr>
+<th colspan="4">Monday</th>
+</tr>
+<tr>
+<th>9:30-10:20</th>
+<th>10:30-11:20</th>
+<th>11:30-12:20</th>
+<th>12:30-1:20</th>
+</tr>
+<tr>
+<td>PHY</td>
+<td style="background-color: #A52A2A;">DS</td>
+<td>P&S</td>
+<td>ENG</td>
+</tr>
+</table>
+</body>
+</html>
